@@ -50,6 +50,11 @@ export default defineNuxtConfig({
         name: 'Deutsch',
       },
       {
+        code: 'ru',
+        language: 'ru-RU',
+        name: 'Русский',
+      },
+      {
         code: 'zh-HK',
         language: 'zh-HK',
         name: '繁體中文（香港）',
@@ -58,6 +63,11 @@ export default defineNuxtConfig({
         code: 'zh-CN',
         language: 'zh-CN',
         name: '简体中文',
+      },
+      {
+        code: 'ko',
+        language: 'ko-KR',
+        name: '한국어',
       },
     ],
     defaultLocale: 'en',
